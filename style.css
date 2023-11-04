@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+
+.myRow {
+  border-radius: 5px;
+  border: 4px solid white;
+  background-image: linear-gradient(to top, #e8198b 0%, #c7eafd 100%);
+  box-shadow: 1px 1px 5px 5px rgb(244, 177, 219);
+}
+
+.myH1 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 3px 3px 5px rgb(255, 0, 157);
+  color: rgb(6, 14, 79);
+}
+
+.Tooltip {
+  background-color: white;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 1px 1px 7px 3px lightgray;
+  position: relative;
+  opacity: 0;
+}
+
+.arrow-down {
+  width: 7px;
+  height: 7px;
+  background-color: white;
+  position: absolute;
+  top: 81%;
+  left: 45%;
+  transform: rotate(45deg);
+  transform-origin: bottom;
+}
+
+.icon {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background-color: white;
+  margin: auto;
+  box-shadow: 1px 1px 7px 3px lightgray;
+  transition: all ease 0.5s;
+}
+
+.Linked:hover {
+  background-color: rgb(0, 140, 255);
+  cursor: pointer;
+}
+
+.Instagram:hover {
+  background-color: rgb(247, 81, 120);
+  cursor: pointer;
+}
+
+.Twitter:hover {
+  background-color: #26a7de;
+  cursor: pointer;
+}
+
+.Github:hover {
+  background-color: #2b3137;
+  cursor: pointer;
+}
+
+.Youtube:hover {
+  background-color: rgb(205, 32, 31);
+  cursor: pointer;
+}
+
+.icon i {
+  line-height: 53px;
+  transition: all ease 0.5s;
+}
+
+.icon i:hover {
+  cursor: pointer;
+  color: white;
+}
+
+.mycolumn-Subdiv {
+  transition: all ease 0.5s;
+}
+
+.mycolumn-Subdiv1:hover .Tooltip,
+.mycolumn-Subdiv1:hover .arrow-down {
+  opacity: 1;
+  background-color: rgb(0, 140, 255);
+  color: white;
+}
+
+.mycolumn-Subdiv2:hover .Tooltip,
+.mycolumn-Subdiv2:hover .arrow-down {
+  opacity: 1;
+  background-color: rgb(247, 81, 120);
+  color: white;
+}
+
+.mycolumn-Subdiv-3:hover .Tooltip,
+.mycolumn-Subdiv-3:hover .arrow-down {
+  opacity: 1;
+  background-color: #26a7de;
+  color: white;
+}
+
+.mycolumn-Subdiv-4:hover .Tooltip,
+.mycolumn-Subdiv-4:hover .arrow-down {
+  opacity: 1;
+  background-color: #2b3137;
+  color: white;
+}
+
+.mycolumn-Subdiv-5:hover .Tooltip,
+.mycolumn-Subdiv-5:hover .arrow-down {
+  opacity: 1;
+  background-color: rgb(205, 32, 31);
+  color: white;
+}
